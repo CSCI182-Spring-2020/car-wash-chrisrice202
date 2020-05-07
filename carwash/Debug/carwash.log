@@ -1,0 +1,8 @@
+﻿  carwash.cpp
+C:\corinna\CSCI182-Spring-2020\car-wash-chrisrice202\carwash\carwash.cpp(13,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+carwash.obj : error LNK2019: unresolved external symbol "public: virtual __thiscall SimpleQueue::~SimpleQueue(void)" (??1SimpleQueue@@UAE@XZ) referenced in function "public: virtual void * __thiscall SimpleQueue::`scalar deleting destructor'(unsigned int)" (??_GSimpleQueue@@UAEPAXI@Z)
+carwash.obj : error LNK2019: unresolved external symbol "public: void __thiscall SimpleQueue::QueueItem(int)" (?QueueItem@SimpleQueue@@QAEXH@Z) referenced in function _main
+carwash.obj : error LNK2019: unresolved external symbol "public: int __thiscall SimpleQueue::DequeueItem(void)" (?DequeueItem@SimpleQueue@@QAEHXZ) referenced in function _main
+carwash.obj : error LNK2019: unresolved external symbol "public: int __thiscall SimpleQueue::CountList(void)" (?CountList@SimpleQueue@@QAEHXZ) referenced in function _main
+carwash.obj : error LNK2019: unresolved external symbol "public: void __thiscall SimpleQueue::IncrimentList(void)" (?IncrimentList@SimpleQueue@@QAEXXZ) referenced in function _main
+C:\corinna\CSCI182-Spring-2020\car-wash-chrisrice202\carwash\Debug\carwash.exe : fatal error LNK1120: 5 unresolved externals
